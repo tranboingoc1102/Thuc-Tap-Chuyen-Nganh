@@ -9,7 +9,7 @@
   <base href="{{asset('public/')}}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <meta name="author" content="">
-  <title>SB Admin - Start Bootstrap Template</title>
+  <title>SB Admin - COZY HOME</title>
   <!-- Bootstrap core CSS-->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template-->
@@ -20,103 +20,81 @@
   <link href="css/sb-admin.css" rel="stylesheet">
 </head>
 
-<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+<body class="fixed-nav sticky-footer bg-light" id="page-top">
   <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+  <nav class="navbar navbar-expand-lg navbar- bg-light fixed-top" id="mainNav">
+    <a class="navbar-brand" href="index.html">COZY HOME</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
           <a class="nav-link" href="index.html">
             <i class="fa fa-fw fa-dashboard"></i>
-            <span class="nav-link-text">Dashboard</span>
+            <span class="nav-link-text">Danh mục</span>
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
           <a class="nav-link" href="charts.html">
             <i class="fa fa-fw fa-area-chart"></i>
-            <span class="nav-link-text">Charts</span>
+            <span class="nav-link-text">Tin tức</span>
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
           <a class="nav-link" href="tables.html">
             <i class="fa fa-fw fa-table"></i>
-            <span class="nav-link-text">Tables</span>
+            <span class="nav-link-text">Quảng cáo</span>
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
           <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
             <i class="fa fa-fw fa-wrench"></i>
-            <span class="nav-link-text">Components</span>
+            <span class="nav-link-text">Loại phòng</span>
           </a>
           <ul class="sidenav-second-level collapse" id="collapseComponents">
             <li>
-              <a href="navbar.html">Navbar</a>
+              <a href="navbar.html">Phòng bình dân</a>
             </li>
             <li>
-              <a href="cards.html">Cards</a>
+              <a href="cards.html">Phòng premier</a>
             </li>
           </ul>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
           <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseExamplePages" data-parent="#exampleAccordion">
             <i class="fa fa-fw fa-file"></i>
-            <span class="nav-link-text">Example Pages</span>
+            <span class="nav-link-text">Setting</span>
           </a>
           <ul class="sidenav-second-level collapse" id="collapseExamplePages">
             <li>
-              <a href="{{route('category')}}">Category</a>
+              <a href="{{route('category')}}">Thêm phòng</a>
             </li>
             <li>
-              <a href="{{route('product')}}">Product</a>
+              <a href="{{route('product')}}">Thông tin phòng</a>
             </li>
             <li>
-              <a href="forgot-password.html">Forgot Password Page</a>
-            </li>
-            <li>
-              <a href="blank.html">Blank Page</a>
+              <a href="forgot-password.html">Ưu đãi Page</a>
             </li>
           </ul>
         </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Menu Levels">
-          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseMulti" data-parent="#exampleAccordion">
-            <i class="fa fa-fw fa-sitemap"></i>
-            <span class="nav-link-text">Menu Levels</span>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Manage Pages">
+          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseManagePages" data-parent="#ManageAccordion">
+            <i class="fa fa-fw fa-file"></i>
+            <span class="nav-link-text">Quản lý</span>
           </a>
-          <ul class="sidenav-second-level collapse" id="collapseMulti">
+          <ul class="sidenav-second-level collapse" id="collapseManagePages">
             <li>
-              <a href="#">Second Level Item</a>
+              <a href="{{route('category')}}">Quản lý phòng</a>
             </li>
             <li>
-              <a href="#">Second Level Item</a>
+              <a href="{{route('product')}}">Thông tin phòng</a>
             </li>
             <li>
-              <a href="#">Second Level Item</a>
-            </li>
-            <li>
-              <a class="nav-link-collapse collapsed" data-toggle="collapse" href="#collapseMulti2">Third Level</a>
-              <ul class="sidenav-third-level collapse" id="collapseMulti2">
-                <li>
-                  <a href="#">Third Level Item</a>
-                </li>
-                <li>
-                  <a href="#">Third Level Item</a>
-                </li>
-                <li>
-                  <a href="#">Third Level Item</a>
-                </li>
-              </ul>
+              <a href="forgot-password.html">Ưu đãi Page</a>
             </li>
           </ul>
-        </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
-          <a class="nav-link" href="#">
-            <i class="fa fa-fw fa-link"></i>
-            <span class="nav-link-text">Link</span>
-          </a>
         </li>
       </ul>
       <ul class="navbar-nav sidenav-toggler">
@@ -177,7 +155,8 @@
             <a class="dropdown-item" href="#">
               <span class="text-success">
                 <strong>
-                  <i class="fa fa-long-arrow-up fa-fw"></i>Status Update</strong>
+                  <i class="fa fa-long-arrow-up fa-fw"></i>Status Update
+                </strong>
               </span>
               <span class="small float-right text-muted">11:21 AM</span>
               <div class="dropdown-message small">This is an automated server response message. All systems are online.</div>
@@ -186,7 +165,8 @@
             <a class="dropdown-item" href="#">
               <span class="text-danger">
                 <strong>
-                  <i class="fa fa-long-arrow-down fa-fw"></i>Status Update</strong>
+                  <i class="fa fa-long-arrow-down fa-fw"></i>Status Update
+                </strong>
               </span>
               <span class="small float-right text-muted">11:21 AM</span>
               <div class="dropdown-message small">This is an automated server response message. All systems are online.</div>
@@ -195,7 +175,8 @@
             <a class="dropdown-item" href="#">
               <span class="text-success">
                 <strong>
-                  <i class="fa fa-long-arrow-up fa-fw"></i>Status Update</strong>
+                  <i class="fa fa-long-arrow-up fa-fw"></i>Status Update
+                </strong>
               </span>
               <span class="small float-right text-muted">11:21 AM</span>
               <div class="dropdown-message small">This is an automated server response message. All systems are online.</div>
@@ -218,13 +199,15 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
-            <i class="fa fa-fw fa-sign-out"></i>Logout</a>
+            <i class="fa fa-fw fa-sign-out"></i>Logout
+          </a>
         </li>
       </ul>
     </div>
   </nav>
+  
   <div class="content-wrapper">
-@yield('body')
+    @yield('body')
     <!-- /.content-wrapper-->
     <footer class="sticky-footer">
       <div class="container">

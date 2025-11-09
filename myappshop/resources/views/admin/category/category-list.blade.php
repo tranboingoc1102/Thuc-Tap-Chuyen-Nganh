@@ -3,7 +3,7 @@
   
     <div class="card-footer">
         <table class="table table-primary table-bordered border-primary">
-              <h1>CATEGORY</h1>
+              <h1>Phòng </h1>
               <a-href="" class="btn btn-primary"> Add</a>
   <thead>
     <tr>

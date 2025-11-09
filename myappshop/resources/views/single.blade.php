@@ -104,7 +104,7 @@
                                 <img src="img/product-4.png" class="img-fluid rounded" alt="Image">
                             </div>
                             <div>
-                                <h6 class="mb-2">Smart Camera</h6>
+                                <h6 class="mb-2">Smart Camera </h6>
                                 <div class="d-flex mb-2">
                                     <i class="fa fa-star text-secondary"></i>
                                     <i class="fa fa-star text-secondary"></i>
@@ -123,7 +123,7 @@
                                 <img src="img/product-5.png" class="img-fluid rounded" alt="Image">
                             </div>
                             <div>
-                                <h6 class="mb-2">Smart Camera</h6>
+                                <h6 class="mb-2">Smart Camera 123456789</h6>
                                 <div class="d-flex mb-2">
                                     <i class="fa fa-star text-secondary"></i>
                                     <i class="fa fa-star text-secondary"></i>

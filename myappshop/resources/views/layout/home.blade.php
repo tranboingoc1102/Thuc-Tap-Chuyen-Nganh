@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Electro - Electronics Website Template</title>
+    <title>Quan Ly Phong Tro - Electronics Website Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -48,15 +48,15 @@
         <div class="row gx-0 align-items-center">
             <div class="col-lg-4 text-center text-lg-start mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <a href="#" class="text-muted me-2"> Help</a><small> / </small>
-                    <a href="#" class="text-muted mx-2"> Support</a><small> / </small>
-                    <a href="#" class="text-muted ms-2"> Contact</a>
+                    <a href="#" class="text-muted me-2"> Trợ giúp</a><small> / </small>
+                    <a href="#" class="text-muted mx-2"> Hỗ trợ</a><small> / </small>
+                    <a href="#" class="text-muted ms-2"> Liên hệ</a>
 
                 </div>
             </div>
             <div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
-                <small class="text-dark">Call Us:</small>
-                <a href="#" class="text-muted">(+012) 1234 567890</a>
+                <small class="text-dark">Liên hệ với chúng tôi :</small>
+                <a href="#" class="text-muted">090 1234 5678</a>
             </div>
 
             <div class="col-lg-4 text-center text-lg-end">
@@ -101,8 +101,8 @@
             <div class="col-md-4 col-lg-3 text-center text-lg-start">
                 <div class="d-inline-flex align-items-center">
                     <a href="" class="navbar-brand p-0">
-                        <h1 class="display-5 text-primary m-0"><i
-                                class="fas fa-shopping-bag text-secondary me-2"></i>Electro</h1>
+                        <h1 class="display-5 text-primary m-0">
+                            <i class="fa-solid fa-house"></i>Cozy Home</h1>
                         <!-- <img src="img/logo.png" alt="Logo"> -->
                     </a>
                 </div>
@@ -258,9 +258,9 @@
         </div>
     </div>
     <!-- Navbar & Hero End -->
-    @yield('body')
+    <!--//@yield('body')
 
-    <!-- Footer Start -->
+     Footer Start -->
     <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
         <div class="container py-5">
             <div class="row g-4 rounded mb-5" style="background: rgba(255, 255, 255, .03);">
